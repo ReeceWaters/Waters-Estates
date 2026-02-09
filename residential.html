@@ -1,3 +1,15 @@
+<nav class="bg-white border-b sticky top-0 z-50 px-6 py-4 flex justify-between items-center shadow-sm">
+    <div class="flex items-center gap-3">
+        <img src="images/logo.png" alt="W" class="h-10">
+        <span class="font-bold text-xl tracking-tighter uppercase text-slate-900">Waters Estates</span>
+    </div>
+    <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-500">
+        <a href="index.html" class="hover:text-blue-700 transition">Home</a>
+        <a href="residential.html" class="hover:text-blue-700 transition">Residential</a>
+        <a href="multifamily.html" class="hover:text-blue-700 transition">Multifamily</a>
+        <a href="contact.html" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Contact</a>
+    </div>
+</nav>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +19,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50">
-    <section class="py-20 px-6 max-w-5xl mx-auto">
-        <h2 class="text-4xl font-black mb-8">Residential Seller Financing</h2>
+
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-black mb-8 text-slate-900 uppercase">Residential Seller Financing</h2>
         <div class="grid md:grid-cols-2 gap-12">
-            <div class="space-y-6">
-                <h3 class="text-2xl font-bold text-blue-800 underline">Base Structure </h3>
-                <ul class="space-y-4 text-lg font-medium">
-                    <li>• 10% down paid at closing </li>
-                    <li>• 6.5% Interest Only payments </li>
-                    <li>• 6-month Note with a Balloon payoff </li>
+            <div>
+                <h3 class="text-2xl font-bold text-blue-800 mb-6">The Base Structure For Residential Homeowners</h3>
+                <ul class="space-y-6">
+                    <li class="p-4 bg-white shadow-sm rounded-lg border"><strong>10% Down Payment:</strong> Paid directly to you at closing.</li>
+                    <li class="p-4 bg-white shadow-sm rounded-lg border"><strong>6.5% Interest Only:</strong> Monthly payments that do not reduce your principal.</li>
+                    <li class="p-4 bg-white shadow-sm rounded-lg border"><strong>6-Month Balloon:</strong> Full principal balance paid off within 180 days.</li>
                 </ul>
             </div>
-            <div class="bg-slate-900 text-white p-8 rounded-2xl">
-                <h3 class="text-xl font-bold mb-4">Seller Protections </h3>
-                <p class="text-slate-300 mb-4">Sellers are protected with a promissory note and 1st position lien on the property.</p>
-                <p class="text-sm italic">"The seller will hold a Deed of Trust until the loan is paid in full."</p>
+            <div class="space-y-8">
+                <div class="bg-slate-900 text-white p-10 rounded-3xl shadow-xl">
+                    [cite_start]<h3 class="text-xl font-bold mb-6 italic">Sellers Protections [cite: 53]</h3>
+                    <ul class="space-y-4 text-slate-300">
+                        <li>✔ <strong>Deed of Trust:</strong> Remains in place until the loan is paid in full.</li>
+                        <li>✔ <strong>Promissory Note:</strong> Legal promise to repay the debt in full.</li>
+                        <li>✔ <strong>1st Position Lien:</strong> Legal right to reclaim if terms aren't met.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
