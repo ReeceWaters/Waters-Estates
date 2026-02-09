@@ -1,6 +1,24 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+function Card({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="bg-slate-900 border border-slate-800 rounded-2xl shadow-sm">
+      {children}
+    </div>
+  );
+}
+
+function CardContent({ children }: { children: React.ReactNode }) {
+  return <div className="p-8">{children}</div>;
+}
+
+function Button({ children }: { children: React.ReactNode }) {
+  return (
+    <button className="rounded-2xl px-8 py-4 bg-white text-black font-medium hover:bg-slate-200 transition">
+      {children}
+    </button>
+  );
+}
+
 import { motion } from "framer-motion";
 
 export default function WatersEstatesSite() {
