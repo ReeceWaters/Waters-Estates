@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 function Card({ children }: { children: React.ReactNode }) {
   return (
