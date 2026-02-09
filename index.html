@@ -5,115 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We Buy Real Estate | Waters Estates</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        html { scroll-behavior: smooth; }
-        .hero-bg { background-color: #0f172a; }
-    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
-
-    <nav class="bg-white border-b sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+<body class="bg-slate-50 text-slate-900">
+    <nav class="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50">
         <div class="flex items-center gap-3">
-            <img src="images/logo.png" alt="Waters Estates Logo" class="h-10 w-auto">
-            <span class="font-bold text-xl tracking-tighter uppercase">Waters Estates</span>
+            <img src="images/logo.png" alt="Logo" class="h-10">
+            <span class="font-bold text-xl uppercase">Waters Estates</span>
         </div>
-        <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-500">
-            <a href="#about" class="hover:text-blue-700 transition">About</a>
-            <a href="#residential" class="hover:text-blue-700 transition">Residential</a>
-            <a href="#multifamily" class="hover:text-blue-700 transition">Multifamily</a>
-            <a href="#contact" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Contact Us</a>
+        <div class="space-x-6 font-bold text-sm uppercase">
+            <a href="index.html" class="text-blue-700">Home</a>
+            <a href="residential.html" class="hover:text-blue-700">Residential</a>
+            <a href="multifamily.html" class="hover:text-blue-700">Multifamily</a>
         </div>
     </nav>
 
-    <header id="about" class="hero-bg text-white py-20 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-5xl md:text-6xl font-black mb-6">We Buy Real Estate</h1>
-            [cite_start]<p class="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Providing professional, transparent, and flexible solutions for property owners[cite: 28].</p>
-            
-            <div class="bg-white/5 border border-white/10 p-8 rounded-3xl flex flex-col md:flex-row items-center gap-8 text-left backdrop-blur-sm">
-                <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-blue-500 flex-shrink-0">
-                    <img src="images/headshot.jpg" alt="Reece Waters" class="w-full h-full object-cover">
-                </div>
-                <div>
-                    <h2 class="text-2xl font-bold">Reece Waters</h2>
-                    [cite_start]<p class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-4">President & CEO [cite: 24]</p>
-                    [cite_start]<p class="italic text-slate-300 leading-relaxed">"I started Waters Estates to create lasting value... building generational wealth for my family while celebrating the opportunity in every property[cite: 27]."</p>
-                </div>
+    <header class="bg-slate-900 text-white py-24 text-center px-6">
+        <h1 class="text-6xl font-black mb-6">We Buy Real Estate</h1>
+        [cite_start]<p class="text-xl text-slate-300 max-w-2xl mx-auto mb-12">Professional, transparent, and flexible solutions for property owners[cite: 178].</p>
+        
+        <div class="bg-white/5 border border-white/10 p-10 rounded-3xl max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10 text-left backdrop-blur-sm">
+            <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 flex-shrink-0">
+                <img src="images/headshot.jpg" alt="Reece Waters" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-1">Reece Waters</h2>
+                [cite_start]<p class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-4">President & CEO [cite: 174]</p>
+                [cite_start]<p class="italic text-slate-300 text-lg">"I started Waters Estates to create lasting value... building generational wealth for my family while celebrating the opportunity in every property[cite: 177]."</p>
             </div>
         </div>
     </header>
+</body>
+</html>
+💻 Step 3: The "Residential" Page (residential.html)
+[cite_start]This focuses on your Seller Financing model for rehab deals.   
 
-    <section id="residential" class="py-20 px-6 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <h2 class="text-4xl font-black mb-6">Residential Acquisitions</h2>
-                [cite_start]<p class="text-slate-600 mb-8 text-lg">We offer fair and competitive prices for residential properties, specializing in seller financing[cite: 17, 19].</p>
-                <div class="space-y-4">
-                    <div class="p-4 bg-white border-l-4 border-blue-600 shadow-sm">
-                        [cite_start]<p><strong>10% Down Payment:</strong> Cash in your pocket at closing[cite: 47, 65].</p>
-                    </div>
-                    <div class="p-4 bg-white border-l-4 border-blue-600 shadow-sm">
-                        [cite_start]<p><strong>6.5% Interest:</strong> Monthly passive income payments[cite: 49, 67].</p>
-                    </div>
-                    <div class="p-4 bg-white border-l-4 border-blue-600 shadow-sm">
-                        [cite_start]<p><strong>6-Month Balloon:</strong> Full balance paid off fast[cite: 48, 73].</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-slate-900 text-white p-10 rounded-3xl">
-                <h3 class="text-xl font-bold mb-6 italic">Why Work With Us?</h3>
-                <ul class="space-y-4 text-slate-300">
-                    [cite_start]<li>✔ Sold As-Is: No repairs or renovation costs[cite: 97, 98].</li>
-                    [cite_start]<li>✔ No Showings: Skip the constant cleaning and strangers[cite: 102, 103].</li>
-                    [cite_start]<li>✔ Guaranteed: Secured by a 1st Position Lien[cite: 53, 72].</li>
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Acquisitions | Waters Estates</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-4xl font-black mb-8">Residential Seller Financing</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                [cite_start]<h3 class="text-2xl font-bold text-blue-800 underline">Base Structure [cite: 183, 196]</h3>
+                <ul class="space-y-4 text-lg font-medium">
+                    [cite_start]<li>• 10% down paid at closing [cite: 197]</li>
+                    [cite_start]<li>• 6.5% Interest Only payments [cite: 199]</li>
+                    [cite_start]<li>• 6-month Note with a Balloon payoff [cite: 198]</li>
                 </ul>
             </div>
-        </div>
-    </section>
-
-    <section id="multifamily" class="bg-blue-700 text-white py-20 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-4xl font-black mb-4">Annuity-Style Structure</h2>
-            [cite_start]<p class="text-blue-100 mb-12 text-lg">Ideal for Landlords and Portfolio Owners looking for "Mail-Box Money"[cite: 133, 135].</p>
-            <div class="grid md:grid-cols-3 gap-8 text-left">
-                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
-                    <h4 class="font-bold mb-2 underline">Tax Deferral</h4>
-                    [cite_start]<p class="text-sm">Spread capital gains over years instead of one large tax hit[cite: 136, 142].</p>
-                </div>
-                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
-                    <h4 class="font-bold mb-2 underline">Zero Burden</h4>
-                    [cite_start]<p class="text-sm">Eliminate management stress—no tenants, maintenance, or operations[cite: 142, 143].</p>
-                </div>
-                <div class="bg-white/10 p-6 rounded-xl border border-white/20">
-                    <h4 class="font-bold mb-2 underline">Secured</h4>
-                    [cite_start]<p class="text-sm">Income backed by real estate and a Deed of Trust[cite: 137, 143].</p>
-                </div>
+            <div class="bg-slate-900 text-white p-8 rounded-2xl">
+                [cite_start]<h3 class="text-xl font-bold mb-4">Seller Protections [cite: 203, 267]</h3>
+                [cite_start]<p class="text-slate-300 mb-4">Sellers are protected with a promissory note and 1st position lien on the property[cite: 203].</p>
+                [cite_start]<p class="text-sm italic">"The seller will hold a Deed of Trust until the loan is paid in full[cite: 269]."</p>
             </div>
         </div>
     </section>
+</body>
+</html>
+💻 Step 4: The "Multifamily" Page (multifamily.html)
+[cite_start]This is for your Annuity-Style Structure.   
 
-    <section id="contact" class="py-20 px-6 max-w-5xl mx-auto text-center">
-        [cite_start]<h2 class="text-4xl font-black mb-6 italic">Let's Secure a Win-Win [cite: 20]</h2>
-        <div class="grid md:grid-cols-2 gap-12 text-left">
-            <div class="space-y-6">
-                <h3 class="text-2xl font-bold">Contact Reece</h3>
-                [cite_start]<p class="text-lg">📞 <strong>(573) 836-4990</strong> [cite: 150]</p>
-                [cite_start]<p class="text-lg">📧 <strong>Reece.WatersEstates@gmail.com</strong> [cite: 150]</p>
-                [cite_start]<p class="text-slate-500 italic text-sm">"Turning each property into an opportunity for growth and stability[cite: 30]."</p>
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multifamily Portfolios | Waters Estates</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50">
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        [cite_start]<h2 class="text-4xl font-black mb-4">Annuity Style Structure [cite: 277]</h2>
+        [cite_start]<p class="text-xl text-slate-600 mb-12">Designed for Multifamily and Single-Family Portfolios[cite: 277].</p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold mb-2">Steady Income</h4>
+                [cite_start]<p class="text-sm">Fixed Monthly Installments based on property NOI[cite: 281].</p>
             </div>
-            <form class="space-y-4 bg-white p-8 rounded-2xl shadow-xl border">
-                <h3 class="text-xl font-bold mb-4">Submit a Deal</h3>
-                <input type="text" placeholder="Name / Brokerage" class="w-full p-3 border rounded shadow-inner">
-                <input type="text" placeholder="Property Address" class="w-full p-3 border rounded shadow-inner">
-                <textarea placeholder="Property Details (Units, Condition, Price)" class="w-full p-3 border rounded h-24 shadow-inner"></textarea>
-                <button type="submit" class="w-full bg-blue-700 text-white font-bold py-4 rounded hover:bg-blue-800 transition shadow-lg">Submit to Waters Estates</button>
-            </form>
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold mb-2">10-Year Term</h4>
+                [cite_start]<p class="text-sm">Consistent mailbox money for an agreed term, usually 10 years[cite: 282, 283].</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h4 class="font-bold mb-2">Tax Efficiency</h4>
+                [cite_start]<p class="text-sm">Tax liability is limited by spreading payments over time[cite: 286].</p>
+            </div>
         </div>
     </section>
-
-    <footer class="py-10 text-center text-slate-400 border-t">
-        [cite_start]<p>&copy; 2026 Waters Estates LLC. Smooth, predictable transactions[cite: 14].</p>
-    </footer>
-
 </body>
 </html>
