@@ -1,16 +1,38 @@
-<nav class="sticky top-0 z-50 bg-white border-b px-4 py-4 flex justify-between items-center shadow-sm">
-    <div class="flex items-center gap-2">
-        <img src="images/logo.png" alt="W" class="h-8 w-auto">
-        <span class="font-bold text-base md:text-xl uppercase tracking-tighter text-slate-900">Waters Estates</span>
+<nav class="sticky top-0 z-50 bg-white border-b px-6 py-4 shadow-sm">
+    <div class="flex justify-between items-center max-w-7xl mx-auto">
+        <div class="flex items-center gap-3">
+            <img src="images/logo.png" alt="W" class="h-10 w-auto">
+            <span class="font-bold text-xl uppercase tracking-tighter text-slate-900">Waters Estates</span>
+        </div>
+
+        <div class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest text-slate-500">
+            <a href="index.html" class="hover:text-blue-700 transition">Home</a>
+            <a href="residential.html" class="hover:text-blue-700 transition">Residential</a>
+            <a href="multifamily.html" class="hover:text-blue-700 transition">Multifamily</a>
+            <a href="contact.html" class="text-blue-700">Contact</a>
+        </div>
+
+        <button onclick="toggleMenu()" class="md:hidden text-slate-900 focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
     </div>
-    
-    <div class="flex space-x-3 md:space-x-6 text-[11px] md:text-sm font-bold uppercase tracking-widest text-slate-500">
-        <a href="index.html" class="hover:text-blue-700 transition">Home</a>
-        <a href="residential.html" class="hover:text-blue-700 transition">Residential</a>
-        <a href="multifamily.html" class="hover:text-blue-700 transition">Multifamily</a>
-        <a href="contact.html" class="text-blue-700 border-l pl-3 border-slate-200">Contact</a>
+
+    <div id="mobile-menu" class="hidden md:hidden pt-4 pb-2 space-y-4">
+        <a href="index.html" class="block font-bold uppercase text-sm text-slate-600 hover:text-blue-700">Home</a>
+        <a href="residential.html" class="block font-bold uppercase text-sm text-slate-600 hover:text-blue-700">Residential</a>
+        <a href="multifamily.html" class="block font-bold uppercase text-sm text-slate-600 hover:text-blue-700">Multifamily</a>
+        <a href="contact.html" class="block font-bold uppercase text-sm text-blue-700">Contact</a>
     </div>
 </nav>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    }
+</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
